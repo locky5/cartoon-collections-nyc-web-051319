@@ -6,14 +6,7 @@ end
 
 def summon_captain_planet(elements)
   elements.collect do |element|
-    new_array = []
-    first_letter = element[0]
-    first_letter_appropriate = first_letter.upcase
-    element.slice!(0)
-    element.prepend(first_letter_appropriate)
-    new_element = "#{element}!"
-    new_array << new_element
-  end
+    element.capitalize
 end
 
 def long_planeteer_calls# code an argument here
