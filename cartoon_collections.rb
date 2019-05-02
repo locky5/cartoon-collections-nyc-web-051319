@@ -10,7 +10,7 @@ def summon_captain_planet(elements)
     first_letter = element[0]
     first_letter_appropriate = first_letter.upcase
     element.slice!(0)
-    element.unshift(first_letter_appropriate)
+    element.prepend(first_letter_appropriate)
     new_element = "#{element}!"
     new_array << new_element
   end
