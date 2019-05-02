@@ -13,6 +13,7 @@ def summon_captain_planet(elements)
     element.prepend(first_letter_appropriate)
     new_element = "#{element}!"
     new_array << new_element
+    return new_array
   end
   new_array.flatten
 end
