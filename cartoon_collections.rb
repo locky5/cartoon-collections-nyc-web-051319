@@ -9,7 +9,7 @@ def summon_captain_planet(elements)
     new_array = []
     first_letter = element[0]
     first_letter_appropriate = first_letter.upcase
-    element.shift ##can't shift a string...
+    element.shift 
     element.unshift(first_letter_appropriate)
     new_element = "#{element}!"
     new_array << new_element
