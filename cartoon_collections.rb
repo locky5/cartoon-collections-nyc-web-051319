@@ -23,5 +23,5 @@ def find_the_cheese(array)
       return cheese
     end
   end
-  return nil
+  return nil ##if none of the cheeses match up in the array
 end
